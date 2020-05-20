@@ -6,6 +6,12 @@ from time import sleep as wait
 # import winsound
 # and use this command:-
 
+# I learnt how to make this
+# project using freecodecamp's
+# "learn python through doing
+# tutorial."
+
+
 # winsound.Playsound("bounce.wav", winsound.SND_ASYNC)
 
 root = turtle.Screen()
