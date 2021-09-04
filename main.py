@@ -5,13 +5,6 @@ from time import sleep as wait
 # for windows:
 # import winsound
 # and use this command:-
-
-# I learnt how to make this
-# project using freecodecamp's
-# "learn python through doing
-# tutorial."
-
-
 # winsound.Playsound("bounce.wav", winsound.SND_ASYNC)
 
 root = turtle.Screen()
@@ -107,9 +100,6 @@ def losing_msg():
     wait(1)
     pen2.clear()
 
-
-
-
 pen3 = turtle.Turtle()
 pen3.speed(0)
 pen3.color('white')
@@ -120,6 +110,7 @@ pen3.write('Ready? Starting in 3 seconds.', align='center', font=('Courier', 32,
 wait(2)
 pen3.clear()
 wait(3)
+
 while True:
     root.update()
     # Moving the ball
